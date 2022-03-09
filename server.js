@@ -3,7 +3,7 @@ const app = require("express")();
 const server = require("http").createServer(app);
 const io = require("socket.io")(server, {
   cors: {
-    origin: ["http://localhost:3000"],
+    origin: ["http://niteshkandari.github.io/socketio-chat-app-fe"],
   },
 });
 const port = process.env.PORT || 8000;
